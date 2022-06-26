@@ -12,10 +12,11 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Layout />} >
-        <Route path="pokemons" element={<Pokemons />} ></Route>
+        <Route index element={<Pokemons />} ></Route>
         <Route path="pokemonsDetails/:pokemonId" element={<PokemonsDetails />} ></Route>
-        <Route path="*" element={<Navigate replace to="/pokemons" />} ></Route>
+        <Route path="*" element={<Navigate replace to="/" />} ></Route>
       </Route>
+
     </Routes>
   </BrowserRouter>
 );
