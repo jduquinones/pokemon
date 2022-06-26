@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    min-height: 100vh;
+}
+.main {
+    background-image: url(./../css/imagen/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedorNavegador {
+    background-color: #012840;
+    width: 100%;
+}
+
+.navegador {
+    width: 90%;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegador p {
+    font-size: 5rem;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    color: #FC0;
+    -webkit-text-stroke: 1px blue;
+    text-shadow: 0 0 10px blue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.logoImg {
+    width: 17rem;
+    height: auto;    
+}
+
+
+
+
+@media (max-width: 685px) {
+    .navegador {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navegador p {
+        display: none;
+    }
+
+    .logo-img {
+        width: 15rem;
+    }
+
+    .navegador {
+        padding: 1.5 0rem;
+    }
+}

@@ -1,0 +1,31 @@
+.contenedor {
+    display: flex;
+    margin: 0 auto;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contenedorVideo {
+    max-height: 50rem;
+    overflow: hidden;
+}
+
+.video {
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 685px) {
+    .contenedor {
+        display: flex;
+        margin: 0 auto;
+        max-width: 90%;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+ 
+

@@ -1,0 +1,21 @@
+.listDos {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0;
+   align-items: center;
+   justify-content: center;    
+}
+.list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   color: #000;
+}
+
+.cardId {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 5rem;
+}
+
