@@ -16,7 +16,6 @@ root.render(
         <Route path="pokemonsDetails/:pokemonId" element={<PokemonsDetails />} ></Route>
         <Route path="*" element={<Navigate replace to="/" />} ></Route>
       </Route>
-
     </Routes>
   </BrowserRouter>
 );

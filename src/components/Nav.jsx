@@ -9,7 +9,7 @@ export  function Nav() {
     <div className={styles.contenedorNavegador}>
         <nav className={styles.navegador}>
           <img className={styles.logoImg} src={imagenLogo} width="170px" alt='logo-navegacion' />
-          <p> Cards  Pokemon</p>
+          <p> Cards  Pokémon</p>
           <img className={styles.logoImg} src={picachuLogo} width="170px" alt='logo-navegacion' />
         </nav>
     </div> 

@@ -20,7 +20,7 @@ body {
     background-size: cover;
 }
 .contenedorNavegador {
-    background-color: #012840;
+    background-color: #fc0;
     width: 100%;
 }
 
@@ -39,8 +39,8 @@ body {
     font-family: 'PT Serif', serif;
     font-weight: 700;
     color: #FC0;
-    -webkit-text-stroke: 1px blue;
-    text-shadow: 0 0 10px blue;
+    -webkit-text-stroke: 2px #0000FF;
+    text-shadow: 0 0 20px #0000FF;
     text-transform: uppercase;
     text-align: center;
 }

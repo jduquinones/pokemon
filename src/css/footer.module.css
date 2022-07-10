@@ -1,54 +1,117 @@
+.contenedorFooterAll {
+    background-color: #FC0;
+    width: 100%;
+}
 
 .contenedorFooter {
-    background-color: #012840;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer {
-    width: 90%;
+.footerImg {
     padding: 1rem;
-    margin-left: 10rem;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .logoImg {
     display: block;
-    width: 10rem;
-    height: auto;    
+    max-width: 15rem;
+    height: auto;
 }
 
-.footer p {
-    font-size: 5rem;
+.titulo {
+    width: 100%;
+    font-size: 3rem;
     font-family: 'PT Serif', serif;
     font-weight: 700;
     color: #FC0;
-    -webkit-text-stroke: 1px blue;
-    text-shadow: 0 0 10px blue;
+    -webkit-text-stroke: 1px #0000FF;
+    text-shadow: 0 0 10px #0000FF;
     text-transform: uppercase;
     text-align: center;
 }
 
+.h3 {
+    color: #000;
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.bloqueParrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.logoFooter {
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.contenedorLogoTexto {
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.react {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -3rem;
+}
+
+.nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.nombre a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.nombre a img {
+    width: 10rem;
+    margin: 0 2rem 0 0;
+}
 
 @media (max-width: 685px) {
-    .navegador {
-        width: 95%;
+    .contenedorFooter {
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .navegador p {
-        display: none;
+    .bloqueParrafo {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .logo-img {
-        width: 15rem;
-    }
-
-    .navegador {
-        padding: 1.5 0rem;
-    }
 }
