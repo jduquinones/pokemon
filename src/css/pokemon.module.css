@@ -16,6 +16,29 @@
     display: block;
 }
 
+
+.contenedorButton {
+    width: 100%;
+    text-align: center;
+}
+
+.buttonBack {
+    background-color:  #E3350D;
+    color: #000;
+    font-weight: 700;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;   
+    padding: 1rem; 
+    cursor: pointer;
+    border: none;
+}
+
+.buttonBack:hover {
+    background-color: #FF0000;
+}
+
 @media (max-width: 685px) {
     .contenedor {
         display: flex;

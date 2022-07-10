@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { ApiFetch } from '../ApiFetch';
 import { CardsId } from './cards/Cards';
+import styles from './../css/pokemon.module.css';
+
 
 
 export function PokemonsDetails() {
@@ -23,7 +25,7 @@ export function PokemonsDetails() {
             <CardsId results={data} />            
         }
       </div>
-      <button onClick={() => navigate(-1)}> Atras</button>
+      <div className={styles.contenedorButton} ><button className={styles.buttonBack} onClick={() => navigate(-1)}> Mis Card</button></div>
     </div>
   );
 }
