@@ -35,6 +35,7 @@ export function Pokemons() {
       <div>
         <input
           type="text"
+          placeholder='Buscar'
           value={searchParams.get('search') || ''}
           onChange={handleChange} />
       </div>

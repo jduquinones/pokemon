@@ -5,7 +5,7 @@ import { CardPokemon } from './CardPokemon';
 export function Cards({ results }) {
 
   return (
-    <div>    
+    <div className={styles.contenedor}>    
       <ul className={styles.listDos}>            
         {          
           results.map(p => (
