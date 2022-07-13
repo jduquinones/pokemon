@@ -8,14 +8,14 @@ import { Footer } from './components/Footer';
 
 export function Layout() {
   return (
-    <main className={styles.main} >
+    <div>
       <Nav />
-      <section>
-        <Outlet />
-      </section>
-      <footer>
-        <Footer />
-      </footer>
-    </main>
+      <main className={styles.main} >        
+        <section>
+          <Outlet />
+        </section>
+      </main>
+      <Footer />
+    </div>
   );
 }

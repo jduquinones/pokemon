@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 
 
 export function ApiFetch(url) {
-
   const [pokemons, setpokemons] = useState({ cargando: true, data: null });
 
   useEffect(() => {

@@ -9,7 +9,7 @@ import styles from './../css/pokemon.module.css';
 export function PokemonsDetails() {
   const { pokemonId } = useParams();
 
-  const [url] = useState('https://pokeapi.co/api/v2/pokemon/' + pokemonId + "/");
+  const [url] = useState('https://pokeapi.co/api/v2/pokemon/' + pokemonId + '/');
   const estado = ApiFetch(url);
   const { cargando, data } = estado;
   const navigate = useNavigate();

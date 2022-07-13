@@ -6,12 +6,12 @@ import picachuLogo from './../css/imagen/picachu-pokebola.webp';
 
 export  function Nav() {
   return (
-    <div className={styles.contenedorNavegador}>
+    <header className={styles.contenedorNavegador}>
         <nav className={styles.navegador}>
           <img className={styles.logoImg} src={imagenLogo} width="170px" alt='logo-navegacion' />
           <p> Cards  Pokémon</p>
           <img className={styles.logoImg} src={picachuLogo} width="170px" alt='logo-navegacion' />
         </nav>
-    </div> 
+    </header> 
   )
 }
