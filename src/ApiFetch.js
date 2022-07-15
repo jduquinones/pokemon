@@ -14,7 +14,7 @@ export function ApiFetch(url) {
       fetch(url)
         .then(res => res.json())
         .then(data =>
-          setpokemons({ cargando: false, data })
+          setpokemons({ cargando: false, data })          
         );
     } catch (error) {
       console.log(error);

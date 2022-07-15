@@ -50,6 +50,10 @@
     border-radius: 2rem;
     padding: 2rem 2rem;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .cardP {
@@ -59,7 +63,7 @@
     font-size: 2.5rem;
     text-transform: capitalize;
     text-transform: uppercase;
-    margin-top: 0;
+    margin: 1rem;
 }
 
 .colorNombre {
@@ -94,8 +98,23 @@ span {
 }
 
 @media (max-width: 768px) {
+    .contenedorData {
+        display: block;
+    }
     .contenedorCards {
         margin-right: 5rem;
+    }
+
+    .cardP {
+        text-align: center;
+    }
+
+    .cardP p {
+        display: block;
+    }
+
+    .imgCards {
+        max-width: 25rem;
     }
 
     .imgCards:hover {
@@ -116,12 +135,16 @@ span {
         margin-bottom: 2rem;
     }
 
+    .cardID {
+        font-size: 2rem;
+    }
+
     .card {
         width: 15rem;
     }
 
     .imgCards {
-        max-width: 20rem;
+        max-width: 15rem;
         height: auto;
     }
 
@@ -131,5 +154,16 @@ span {
 
     .contenedorData {
         width: 30rem;
+    }
+
+    .cardP {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .cardP p {
+        text-align: center;
+        display: block;
+        width: auto;
     }
 }

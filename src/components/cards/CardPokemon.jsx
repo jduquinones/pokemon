@@ -30,10 +30,18 @@ export function CardPokemon({ data }) {
           <span>Habilidad 1:</span> <p className={styles.colorAbilidad}>{data.abilities[0].ability.name}</p>
         </div>
 
-        <div className={styles.cardP}>
-          <span>Habilidad 2:</span> <p className={styles.colorAbilidad}>{data.abilities[1].ability.name}</p>
-        </div>
-      </div> 
+        {
+          !
+            data.abilities[1]
+            ?
+            null
+            :
+            <div className={styles.cardP}>
+              <span>Habilidad 2:</span> <p className={styles.colorAbilidad}>{!data.abilities[1] ? null : data.abilities[1].ability.name}</p>
+            </div>
+        }
+
+      </div>
     </div>
   )
 }
